@@ -1,0 +1,47 @@
+/* App.css */
+
+.quote-generator {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #fefefe;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 2rem;
+}
+
+.quote-box {
+  margin-bottom: 2rem;
+  background-color: #f0f4f8;
+  padding: 1.5rem;
+  border-left: 4px solid #007acc;
+  border-radius: 6px;
+}
+
+.quote-text {
+  font-size: 1.2rem;
+  color: #222;
+  line-height: 1.6;
+}
+
+.quote-button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.quote-button:hover {
+  background-color: #005fa3;
+}
